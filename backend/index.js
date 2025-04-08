@@ -17,7 +17,7 @@ const app=express();
 
 const server=http.createServer(app);
 app.use(cors({
-    origin: 'http://localhost:5173',  // Allow only this origin
+    origin: 'https://job-navigator-1.onrender.com',  // Allow only this origin
     credentials: true                // Allow credentials (cookies, authorization headers, etc.)
   }));
 //middleware
